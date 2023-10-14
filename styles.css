@@ -12,7 +12,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 2.5fr;
 }
 
 svg {
@@ -127,5 +127,29 @@ input[type="search"] {
     font-size: 15px;
     font-weight: bold;
     color: white;
+}
+
+.dashboard {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.dashboard-title {
+    font-size: 35px;
+}
+
+.group-one, .group-two {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.group-two {
+    margin-right: 60px;
 }
 
